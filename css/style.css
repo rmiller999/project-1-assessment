@@ -1,0 +1,35 @@
+#numinput {
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+button {
+  background-color: grey;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: grey;
+}
+
+div {
+  display: flex;  /* defaults to row layout */
+  justify-content: center;  /* centers items horizontally in row layout */
+  align-items: center;  /* centers vertically in row layout */
+}
+h1 {
+  text-align: center;
+  margin-top: 290px;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.red {
+  color: red;
+}
